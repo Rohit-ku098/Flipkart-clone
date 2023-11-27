@@ -8,8 +8,7 @@ import './slider.css'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import SliderBtn from "./sliderbtn";
-
+import SliderBtn from './SliderBtn'
 
 // import required modules
 

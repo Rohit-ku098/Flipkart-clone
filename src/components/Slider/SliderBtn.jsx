@@ -2,7 +2,7 @@ import React from "react";
 import { useSwiper } from "swiper/react";
 
 
-function SliderBtn({}){
+function SliderBtn(){
     const swiper = useSwiper()
     return (
       <>
