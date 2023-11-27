@@ -1,0 +1,37 @@
+[
+  {
+    "imageUrl": "/images/Products/HomeKitchen/hand-drill.webp",
+    "name": "Power and Hand Tool kit",
+    "price": "From ₹399"
+  },
+  {
+    "imageUrl": "/images/Products/HomeKitchen/decorLight.webp",
+    "name": "Decor Lightings",
+    "price": "Upto 80% Off"
+  },
+  {
+    "imageUrl": "/images/Products/HomeKitchen/wallClock.webp",
+    "name": "Clocks",
+    "price": "Upto 80% Off"
+  },
+  {
+    "imageUrl": "/images/Products/HomeKitchen/budha.webp",
+    "name": "Showpieces",
+    "price": "Upto 80% Off"
+  },
+  {
+    "imageUrl": "/images/Products/HomeKitchen/bulb.webp",
+    "name": "Bulbs",
+    "price": "Upto 80% Off"
+  },
+  {
+    "imageUrl": "/images/Products/HomeKitchen/wallDecor.webp",
+    "name": "Wall Decor Items",
+    "price": "Upto 80% Off"
+  },
+  {
+    "imageUrl": "/images/Products/HomeKitchen/artificialPlant.webp",
+    "name": "Artificial Plants",
+    "price": "Upto 80% Off"
+  }
+]

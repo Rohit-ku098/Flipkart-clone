@@ -1,0 +1,42 @@
+[
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/softToy.webp",
+    "name": "Soft Toy",
+    "price": "Upto 70% Off"
+  },
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/gearedCycle.webp",
+    "name": "Geared Cycle",
+    "price": "Upto 70% Off"
+  },
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/dryFruits.webp",
+    "name": "Dry Fruits",
+    "price": "Upto 75% Off"
+  },
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/coffeePowder.webp",
+    "name": "Coffee Powder",
+    "price": "Upto 80% Off"
+  },
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/yogaMat.webp",
+    "name": "Yoga Mat",
+    "price": "From 199"
+  },
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/tyre.webp",
+    "name": "Tyres",
+    "price": "From 799"
+  },
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/peanutButter.webp",
+    "name": "Food Spreads",
+    "price": "Upto 70% Off"
+  },
+  {
+    "imageUrl": "/images/Products/ToyandBeauty/gearedCycle.webp",
+    "name": "Geared Cycle",
+    "price": "Upto 70% Off"
+  }
+]

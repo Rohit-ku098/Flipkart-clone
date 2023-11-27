@@ -1,0 +1,23 @@
+[
+  {
+    "imageUrl": "/images/Products/Winter/trackSuit.webp",
+    "name": "Men's Tracksuits",
+    "price": "Min. 50% Off"
+  },
+  {
+    "imageUrl": "/images/Products/Winter/sweatShirt.webp",
+    "name": "Men's Sweatshirts",
+    "price": "Min. 50% Off"
+  },
+  {
+    "imageUrl": "/images/Products/Winter/imersionRod.webp",
+    "name": "Immersion Rods",
+    "price": "Min. 50% Off"
+  },
+  {
+    "imageUrl": "/images/Products/Winter/jacket.webp",
+    "name": "Men's Jackets",
+    "price": "Min. 50% Off"
+  }
+
+]

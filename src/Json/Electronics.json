@@ -1,0 +1,45 @@
+
+[
+  {
+    "imageUrl": "/images/Products/Electronics/canoncamera.webp",
+    "name": "Top Mirrorless Cameras",
+    "price": "Shop Now!"
+  },
+  {
+    "imageUrl": "/images/Products/Electronics/pendrive.webp",
+    "name": "Pendrives & SD Cards",
+    "price": "From ₹289"
+  },
+
+  {
+    "imageUrl": "/images/Products/Electronics/printer.webp",
+    "name": "Printer",
+    "price": "From ₹2,336"
+  },
+  {
+    "imageUrl": "/images/Products/Electronics/keyboard.webp",
+    "name": "Keyboard & Mouse",
+    "price": "From ₹169"
+  },
+  {
+    "imageUrl": "/images/Products/Electronics/shaver.webp",
+    "name": "Best of Shavers",
+    "price": "From ₹1,649"
+  },
+
+  {
+    "imageUrl": "/images/Products/Electronics/monitor.webp",
+    "name": "Monitor",
+    "price": "From ₹6,999"
+  },
+  {
+    "imageUrl": "/images/Products/Electronics/projector.webp",
+    "name": "Projector",
+    "price": "From ₹6,990"
+  },
+  {
+    "imageUrl": "/images/Products/Electronics/antivirus.webp",
+    "name": "Best Selling Security",
+    "price": "From ₹29"
+  }
+]
