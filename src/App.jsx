@@ -53,7 +53,7 @@ function App() {
           products={winterData}
         />
 
-        <AdvImg imageUrl={"/images/AdvImg/smartphone.png"} />
+        <AdvImg imageUrl={"./images/AdvImg/smartphone.png"} />
       </div>
 
       <ProductSectionVertical

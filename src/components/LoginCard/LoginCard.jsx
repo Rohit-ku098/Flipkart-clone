@@ -11,7 +11,7 @@ export default function ({hovered=true}){
             <ul className="">
               <li className="flex py-2 hover:cursor-pointer hover:bg-gray-50">
                 <img
-                  src="images/profile.svg"
+                  src="./images/profile.svg"
                   alt=""
                   className="inline mx-3 "
                   width={"20px"}
@@ -21,7 +21,7 @@ export default function ({hovered=true}){
 
               <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
                 <img
-                  src="images/fkplus.svg"
+                  src="./images/fkplus.svg"
                   alt=""
                   className="inline mx-3"
                   width={"20px"}
@@ -31,7 +31,7 @@ export default function ({hovered=true}){
 
               <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
                 <img
-                  src="images/orders.svg"
+                  src="./images/orders.svg"
                   alt=""
                   className="inline mx-3"
                   width={"20px"}
@@ -41,7 +41,7 @@ export default function ({hovered=true}){
 
               <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
                 <img
-                  src="images/wishlist.svg"
+                  src="./images/wishlist.svg"
                   alt=""
                   className="inline mx-3"
                   width={"20px"}
@@ -51,7 +51,7 @@ export default function ({hovered=true}){
 
               <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
                 <img
-                  src="images/rewards.svg"
+                  src="./images/rewards.svg"
                   alt=""
                   className="inline mx-3"
                   width={"20px"}
@@ -61,7 +61,7 @@ export default function ({hovered=true}){
 
               <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
                 <img
-                  src="images/giftCard.svg"
+                  src="./images/giftCard.svg"
                   alt=""
                   className="inline mx-3"
                   width={"20px"}

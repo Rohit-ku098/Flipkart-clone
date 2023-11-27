@@ -7,7 +7,7 @@ export default function ({ hovered = true }) {
           <ul className="">
             <li className="flex py-2 hover:cursor-pointer hover:bg-gray-50">
               <img
-                src="images/notification.svg"
+                src="./images/notification.svg"
                 alt=""
                 className="inline me-3 "
                 width={"20px"}
@@ -17,7 +17,7 @@ export default function ({ hovered = true }) {
 
             <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
               <img
-                src="images/helpcenter.svg"
+                src="./images/helpcenter.svg"
                 alt=""
                 className="inline me-3"
                 width={"20px"}
@@ -27,7 +27,7 @@ export default function ({ hovered = true }) {
 
             <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
               <img
-                src="images/advertise.svg"
+                src="./images/advertise.svg"
                 alt=""
                 className="inline me-3"
                 width={"20px"}
@@ -37,7 +37,7 @@ export default function ({ hovered = true }) {
 
             <li className="flex  py-2 hover:cursor-pointer hover:bg-gray-50">
               <img
-                src="images/download.svg"
+                src="./images/download.svg"
                 alt=""
                 className="inline me-3"
                 width={"20px"}

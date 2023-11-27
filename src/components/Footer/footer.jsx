@@ -132,25 +132,25 @@ function Footer(){
         <div className="flex justify-around border-t border-slate-600 p-6 list-none">
           <li className="flex ">
             <div className="me-1">
-              <img src="/images/Footer/sell-image.svg" alt="" />
+              <img src="./images/Footer/sell-image.svg" alt="" />
             </div>
             <p>Become a Seller</p>
           </li>
           <li className="flex ">
             <div className="me-1">
-              <img src="/images/Footer/advertise.svg" alt="" />
+              <img src="./images/Footer/advertise.svg" alt="" />
             </div>
             <p>Advertise</p>
           </li>
           <li className="flex ">
             <div className="me-1">
-              <img src="/images/Footer/gift-cards.svg" alt="" />
+              <img src="./images/Footer/gift-cards.svg" alt="" />
             </div>
             <p>Gift Cards</p>
           </li>
           <li className="flex ">
             <div className="me-1">
-              <img src="/images/Footer/help-centre.svg" alt="" />
+              <img src="./images/Footer/help-centre.svg" alt="" />
             </div>
             <p>Help Center</p>
           </li>
@@ -159,7 +159,7 @@ function Footer(){
           </li>
           <li>
             <div>
-              <img src="/images/Footer/payment-method.svg" alt="" />
+              <img src="./images/Footer/payment-method.svg" alt="" />
             </div>
           </li>
         </div>
