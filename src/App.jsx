@@ -87,7 +87,10 @@ function App() {
       <ProductSection category="Fashion Best Seller" products={toyandbeauty} />
 
       <TopStorySection>
-        <TopStory title={"Most searched  for on flipkart"} data={MostsearchedData} />
+        <TopStory
+          title={"Most searched  for on flipkart"}
+          data={MostsearchedData}
+        />
         <TopStory title={"Mobiles"} data={mobilesData} />
         <TopStory title={"Cameras"} data={cameradata} />
         <TopStory title={"Laptop"} data={laptopData} />

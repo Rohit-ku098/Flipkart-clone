@@ -1,0 +1,198 @@
+[
+  {
+    "item": "Audio",
+    "items": [
+      "All",
+      "Bluetooth Headphones",
+      "Wired Headphones",
+      "True Wireless Earbuds",
+      "Bluetooth Speakers",
+      "Soundbars",
+      "Home Theatres",
+      "TV Streaming Device",
+      "Remote Control",
+      "DTH Set top box",
+      "Headphones Pouch & Case Covers"
+    ]
+
+  },
+  {
+    "item": "Electronics GST Store",
+    "items": []
+  },
+  {
+    "item": "Cameras & Accessories",
+    "items": [
+      "All",
+      "DSLR & Mirrorless",
+      "Sports & action",
+      "Point & Shoot",
+      "Instant Cameras",
+      "Camcorders",
+      "Camera tripods",
+      "Camera Lenses",
+      "Drone",
+      "Flashes",
+      "Gimbals",
+      "Binoculars",
+      "Other Camera Accessories"
+    ]
+
+  },
+  {
+    "item": "Computer Peripherals",
+    "items":[
+      "All",
+      "Printers",
+      "Monitors",
+      "Projectors",
+      "Portable Projectors",
+      "Ink Cartridges",
+      "Ink Bottles",
+      "Receipt Printers",
+      "Lamination Machines",
+      "Note Counting Machines",
+      "Barcode Scanners",
+      "Currency Detectors"
+    ]
+
+  },
+  {
+    "item": "Gaming",
+    "items": [
+      "All",
+      "Gaming Consoles",
+      "Gaming Mouse",
+      "Gaming Keyboards",
+      "Gamepads",
+      "Games",
+      "Accessory Kits",
+      "Gaming Accessories Combo",
+      "Gaming Mousepads",
+      "Membership Cards",
+      "Controllers",
+      "Other Gaming Accessories",
+      "Gaming Components"
+    ]
+
+  },
+  {
+    "item": "Health & Personal Care",
+    "items": [
+      "All",
+      "Trimmers",
+      "Shavers",
+      "Hair Straighteners",
+      "Hair Dryers",
+      "Epilators",
+      "Glucometers And Accessories",
+      "Blood Pressure Monitors",
+      "Digital Thermometers",
+      "Weighing Scales",
+      "Massagers",
+      "Nebulizers",
+      "Vaporizers"
+    ]
+
+  },
+  {
+    "item": "Laptop Accessories",
+    "items": [
+      "All",
+      "Mouse",
+      "Laptop Keyboards",
+      "Router",
+      "Data Cards",
+      "UPS",
+      "USB Gadgets",
+      "Security Software",
+      "Laptop Battery",
+      "Laptop Adapter",
+      "Wireless USB Adapter",
+      "Processor",
+      "Other Accessories"
+    ]
+
+  },
+  {
+    "item": "Laptop and Desktop",
+    "items": [
+      "All",
+      "Laptops",
+      "Gaming Laptops",
+      "Desktop PCs",
+      "All In One PCs",
+      "Mini PCs",
+      "Tower PCs",
+      "PC Finder"
+    ]
+
+  },
+  {
+    "item": "Mobile Accessory",
+    "items": [
+      "All",
+      "Plain Cases",
+      "Designer Cases",
+      "Screen Guards",
+      "Camera Lens Protectors",
+      "Tablet Accessories",
+      "MobileCable",
+      "MobileChargingMobileCharger",
+      "MobilePouches",
+      "MobileFlash",
+      "MobileHolder",
+      "Mobile USBGadget",
+      "Mobiles Accessories Combos"
+    ]
+
+  },
+  {
+    "item": "Powerbank",
+    "items": [
+      "All", 
+      "Powerbank"
+    ]
+  },
+  {
+    "item": "Smart Home automation",
+    "items": [
+      "All",
+      "Smart Assistants",
+      "Smart Lights",
+      "Smart Cameras",
+      "Smart Switches",
+      "Smart Door locks",
+      "Sensors & Alarms"
+    ]
+
+  },
+  {
+    "item": "Smart Wearables",
+    "items": [
+        "Smart Bands",
+        "Smart Glasses"
+    ]
+  },
+  {
+    "item": "Storage",
+    "items": [
+      "All",
+      "MobileMemoryCard",
+      "ComputerStoragePendrive",
+      "MobileStoragePendrive",
+      "External Hard Drive",
+      "Internal HardDrive"
+    ]
+
+  },
+  {
+    "item": "Tablets",
+    "items":[
+      "All",
+      "Tablets With Call Facility",
+      "Tablets Without Call Facility"
+    ]
+
+  }
+]
