@@ -14,7 +14,7 @@ function Navigation(){
         <nav className="fixed top-0 z-10">
           <div className="right">
             <div className="logo ">
-              <img src="/images/logo.svg" alt="" />
+              <img src="./images/logo.svg" alt="" />
             </div>
           </div>
           <div className="search ">
@@ -41,7 +41,7 @@ function Navigation(){
               </div>
 
               <img
-                src="/images/profile.svg"
+                src="./images/profile.svg"
                 alt=""
                 className=" hover:cursor-pointer group-hover:invert"
               />
@@ -49,20 +49,20 @@ function Navigation(){
                 Login
               </p>
               <img
-                src="/images/dropdown.svg"
+                src="./images/dropdown.svg"
                 alt=""
                 className="group-hover:invert group-hover:rotate-180 ease-in-out "
               />
             </div>
 
             <div className="cart hover:cursor-pointer flex items-center">
-              <img src="/images/header_cart.svg" alt="" />
+              <img src="./images/header_cart.svg" alt="" />
               <p>Cart</p>
             </div>
 
             <div className="seller w-44 hover:cursor-pointer flex items-center">
               <img
-                src="/images/Store.svg"
+                src="./images/Store.svg"
                 alt="store"
                 width="24px"
                 height={"24px"}
@@ -79,7 +79,7 @@ function Navigation(){
                 setDropdownhover(false);
               }}
             >
-              <img src="/images/3dot.svg" alt="" />
+              <img src="./images/3dot.svg" alt="" />
               <div>
                 <NavDropdown hovered={dropdownHover} />
               </div>

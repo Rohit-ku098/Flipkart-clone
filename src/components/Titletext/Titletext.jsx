@@ -10,7 +10,7 @@ function Titletext({title, isDropdown=false}){
             isDropdown ? "" : "hidden"
           }`}
         >
-          <img src="/images/dropdown.svg" alt="" />
+          <img src="./images/dropdown.svg" alt="" />
         </div>
       </div>
     );

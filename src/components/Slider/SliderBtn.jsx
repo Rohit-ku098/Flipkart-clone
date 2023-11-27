@@ -12,7 +12,7 @@ function SliderBtn(){
           onClick={() => swiper.slidePrev()}
         >
           <img
-            src="/images/dropdown.svg"
+            src="./images/dropdown.svg"
             className="rotate-90"
             width={"20px"}
           />
@@ -23,7 +23,7 @@ function SliderBtn(){
           onClick={() => swiper.slideNext()}
         >
           <img
-            src="/images/dropdown.svg"
+            src="./images/dropdown.svg"
             className="-rotate-90"
             width={"20px"}
           />

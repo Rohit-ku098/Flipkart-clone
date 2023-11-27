@@ -1,9 +1,9 @@
 
 
 function ProductCard2({
-  imageUrl = "/images/Products/pendrive.webp",
-  name = "Pendrives & SD Cards",
-  price = "From ₹289",
+  imageUrl = "",
+  name = "",
+  price = "",
 }) {
   return (
     <div className=" w-52 h-72 p-1 border rounded flex justify-between items-center flex-col ">
