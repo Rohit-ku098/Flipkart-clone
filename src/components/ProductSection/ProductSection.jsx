@@ -19,7 +19,7 @@ function ProductSection({
           <div className=" mt-3 text-xl font-medium"> {category}</div>
           <div className=" mt-3 text-2xl bg-blue-700 rounded-full w-7 h-7 flex justify-center items-center ">
             <img
-              src="images/dropdown.svg"
+              src="./images/dropdown.svg"
               alt=""
               className="-rotate-90 invert translate-x-0.5 "
               width={"20px"}
@@ -53,7 +53,7 @@ function ProductSection({
             onClick={isNextClicked ? goToPrevious : goToNext}
           >
             <img
-              src="/images/dropdown.svg"
+              src="./images/dropdown.svg"
               alt=""
               className={`${isNextClicked ? "rotate-90" : "-rotate-90"}`}
               width={"20px"}
