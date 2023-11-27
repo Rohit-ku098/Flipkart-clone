@@ -1,9 +1,9 @@
 [
-    "/images/Slider/1.webp",
-    "/images/Slider/2.webp",
-    "/images/Slider/3.webp",
-    "/images/Slider/4.webp",
-    "/images/Slider/5.webp",
-    "/images/Slider/6.webp"
+    "./images/Slider/1.webp",
+    "./images/Slider/2.webp",
+    "./images/Slider/3.webp",
+    "./images/Slider/4.webp",
+    "./images/Slider/5.webp",
+    "./images/Slider/6.webp"
     
 ]
