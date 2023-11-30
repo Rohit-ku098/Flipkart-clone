@@ -10,11 +10,11 @@ import Product from './components/Product/Product.jsx'
 // const id='rohit'
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/Flipkart-clone"  >
+    <Route path="/"  >
       <Route path='' element={<Home/>} />
-      <Route path={`/Flipkart-clone/:product`} element={<Layout />} >
+      <Route path={`/:product`} element={<Layout />} >
         <Route path={``} element={<ProductPage/>}/>
-        <Route path={`/Flipkart-clone/:product/:productDetails`} element={<ProductPage/>}/>
+        <Route path={`/:product/:productDetails`} element={<ProductPage/>}/>
       </Route>
     </Route>
   )
