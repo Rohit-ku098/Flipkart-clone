@@ -6,15 +6,16 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import Layout from './Layout.jsx'
 import ProductPage from './components/ProductPage/ProductPage.jsx'
 import Product from './components/Product/Product.jsx'
+import ProductDetails from './components/ProductDetails/ProductDetails.jsx'
 
 // const id='rohit'
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/"  >
+    <Route path="/Flipkart-clone"  >
       <Route path='' element={<Home/>} />
-      <Route path={`/:product`} element={<Layout />} >
+      <Route path={`/Flipkart-clone/:product`} element={<Layout />} >
         <Route path={``} element={<ProductPage/>}/>
-        <Route path={`/:product/:productDetails`} element={<ProductPage/>}/>
+        <Route path={`/Flipkart-clone/:product/:productDetails`} element={<ProductDetails/>}/>
       </Route>
     </Route>
   )
