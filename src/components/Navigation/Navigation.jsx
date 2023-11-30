@@ -4,17 +4,17 @@ import Titletext from '../Titletext/Titletext';
 import './Navigation.css'
 import NavDropdown from './NavDropdown';
 
-function Navigation(){
+function Navigation({className}){
 
    const [hovered, setHovered] = useState(false)
    const [dropdownHover, setDropdownhover] = useState(false)
 
     return (
       <header>
-        <nav className="fixed top-0 z-10">
+        <nav className={`${className} fixed top-0 z-10`}>
           <div className="right">
             <div className="logo ">
-              <img src="./images/logo.svg" alt="" />
+              <img src="/Flipkart-clone/public/images/logo.svg"  alt=""/>
             </div>
           </div>
           <div className="search ">
@@ -41,7 +41,7 @@ function Navigation(){
               </div>
 
               <img
-                src="./images/profile.svg"
+                src="images/profile.svg"
                 alt=""
                 className=" hover:cursor-pointer group-hover:invert"
               />
@@ -51,7 +51,7 @@ function Navigation(){
               <img
                 src="./images/dropdown.svg"
                 alt=""
-                className="group-hover:invert group-hover:rotate-180 ease-in-out "
+                className="group-hover:invert group-hover:rotate-180 ease-in-out duration-200 "
               />
             </div>
 

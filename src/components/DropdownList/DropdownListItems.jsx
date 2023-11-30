@@ -1,6 +1,6 @@
 function DropdownListItems({ items,itemName, style }) {
   return (
-    <div>
+    <div key={itemName}>
       <div
         className={` ${style}  w-60  min-h-full absolute top-0 left-full z-10  border rounded-lg bg-white shadow-lg text-sm `}
       >

@@ -14,7 +14,7 @@ function NavigationProduct({
         <div className="flex flex-col items-center cursor-pointer group">
           <img src={imageUrl} alt="" width={"70px"} />
           <Titletext title={productName} isDropdown={isDropdown} />
-          {isDropdown ? <DropdownList list={list} /> : ""}
+          {isDropdown ? <DropdownList list={list}  /> : ""}
         </div>
         <div></div>
       </div>

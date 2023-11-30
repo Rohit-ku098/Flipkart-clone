@@ -18,6 +18,7 @@ function DropdownList({list=[]}) {
               } `}
               onMouseEnter={() => setNotHovered(false)}
               onMouseLeave={() => setNotHovered(true)}
+              key={index}
             >
               <p>{data.item}</p>
               {data.items[0] != undefined? (
@@ -35,6 +36,7 @@ function DropdownList({list=[]}) {
                     items={data.items}
                     itemName={data.item}
                     style={` ${index === 0 && notHovered ? "visible" : ""}`}
+                    key={index}
                   />
                 </div>
               ) : (

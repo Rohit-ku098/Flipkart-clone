@@ -1,34 +1,34 @@
 import { useState } from 'react'
-import './App.css'
-import Navigation from './components/Navigation/Navigation'
-import NavigationProductSection from './components/NavigationProduct/NavigationProductSection'
-import Slider from './components/Slider/Slider'
-import ProductSection from './components/ProductSection/ProductSection'
-import ProductSectionVertical from './components/ProductSection/ProductSectionVertical'
-import AdvImg from './components/AdvImg/AdvImg'
-import Footer from './components/Footer/footer'
-import homeKitchenData from './Json/HomeKitchen.json'
-import sliderData from './Json/Slider.json'
-import electronics from './Json/Electronics.json'
-import winterData from './Json/winter.json'
-import toyandbeauty from './Json/ToyandBeauty.json'
+import './Home.css'
+import Navigation from '../Navigation/Navigation'
+import NavigationProductSection from '../NavigationProduct/NavigationProductSection'
+import Slider from '../Slider/Slider'
+import ProductSection from '../ProductSection/ProductSection'
+import ProductSectionVertical from '../ProductSection/ProductSectionVertical'
+import AdvImg from '../AdvImg/AdvImg'
+import Footer from '../Footer/footer'
+import homeKitchenData from '../../Json/HomeKitchen.json'
+import sliderData from '../../Json/Slider.json'
+import electronics from '../../Json/Electronics.json'
+import winterData from '../../Json/winter.json'
+import toyandbeauty from '../../Json/ToyandBeauty.json'
 
-import TopStory from './components/TopStories/TopStory'
-import MostsearchedData from './Json/TopStory/MostSearched.json'
-import mobilesData from './Json/TopStory/mobiles.json'
-import cameradata from './Json/TopStory/camera.json'
-import laptopData from './Json/TopStory/laptop.json'
-import TVdata from './Json/TopStory/TV.json'
-import largeAplliancesData from './Json/TopStory/largeAppliances.json'
-import clothingData from './Json/TopStory/clothing.json'
-import footwareData from "./Json/TopStory/footware.json";
-import groceryData from "./Json/TopStory/grocery.json";
-import bestSellingData from "./Json/TopStory/bestSelling.json";
-import furnitureData from "./Json/TopStory/furniture.json";
-import BGMHdata from "./Json/TopStory/BGMH.json";
-import TopStorySection from './components/TopStories/TopStorySection'
+import TopStory from '../TopStories/TopStory'
+import MostsearchedData from '../../Json/TopStory/MostSearched.json'
+import mobilesData from '../../Json/TopStory/mobiles.json'
+import cameradata from '../../Json/TopStory/camera.json'
+import laptopData from '../../Json/TopStory/laptop.json'
+import TVdata from '../../Json/TopStory/TV.json'
+import largeAplliancesData from '../../Json/TopStory/largeAppliances.json'
+import clothingData from '../../Json/TopStory/clothing.json'
+import footwareData from "../../Json/TopStory/footware.json";
+import groceryData from "../../Json/TopStory/grocery.json";
+import bestSellingData from "../../Json/TopStory/bestSelling.json";
+import furnitureData from "../../Json/TopStory/furniture.json";
+import BGMHdata from "../../Json/TopStory/BGMH.json";
+import TopStorySection from '../TopStories/TopStorySection'
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
   console.log(sliderData)
   return (
@@ -108,4 +108,4 @@ function App() {
   );
 }
 
-export default App
+export default Home
