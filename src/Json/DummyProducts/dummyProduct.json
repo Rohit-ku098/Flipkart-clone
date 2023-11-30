@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Dummy Product",
+        "discription": "This is a dummy product, It is created for illutstration of the actual product",
+        "price" : "9,999",
+        "img":["./images/Products/Electronics/monitor.webp"],
+        "rating":"4.4",
+        "flipkartAssured": true
+    },
+    {
+        "name":"Dummy Product",
+        "discription": "This is a dummy product, It is created for illutstration of the actual product",
+        "price" : "9,999",
+        "img":["./images/Products/Electronics/monitor.webp"],
+        "rating":"4.4",
+        "flipkartAssured": true
+    }
+]
