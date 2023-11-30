@@ -14,7 +14,7 @@ function Navigation({className}){
         <nav className={`${className} fixed top-0 z-10`}>
           <div className="right">
             <div className="logo ">
-              <img src="public/images/logo.svg"  alt=""/>
+              <img src="./public/images/logo.svg"  alt=""/>
             </div>
           </div>
           <div className="search ">
@@ -41,7 +41,7 @@ function Navigation({className}){
               </div>
 
               <img
-                src="images/profile.svg"
+                src="./images/profile.svg"
                 alt=""
                 className=" hover:cursor-pointer group-hover:invert"
               />
