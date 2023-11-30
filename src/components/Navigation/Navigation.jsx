@@ -14,7 +14,7 @@ function Navigation({className}){
         <nav className={`${className} fixed top-0 z-10`}>
           <div className="right">
             <div className="logo ">
-              <img src="/Flipkart-clone/public/images/logo.svg"  alt=""/>
+              <img src="public/images/logo.svg"  alt=""/>
             </div>
           </div>
           <div className="search ">

@@ -6,7 +6,7 @@ function ProductCard({
   price = "",
 }) {
   return (
-    <Link to={`/Flipkart-clone/${name}`}>
+    <Link to={`/${name}`}>
       <div className=" w-48 p-1 border rounded flex justify-between items-center flex-col ">
         <div className="flex items-center justify-center  h-44 w-44   ">
           <img
