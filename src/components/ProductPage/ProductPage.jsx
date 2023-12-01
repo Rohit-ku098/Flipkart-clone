@@ -23,34 +23,48 @@ function ProductPage() {
   ];
   const [min, setMin] = useState('0')
   const [max , setMax] = useState(priceRange[priceRange.length-1])
-
+  const [rating, setRating] = useState(0)
+  
   const toNum = (str) => str.replace(/[^0-9]/g, "");
   
   const [filteredProduct, setFilteredProduct] = useState(products);
+  const [priceFilteredProduct, setPriceFilteredProduct] = useState(products);
+  const [ratingFilteredProduct, setRatingFilteredProduct] = useState(products);
+  
+  // filter on basis of price
   useEffect(()=>{
-    
-    // filter on basis of price
     let minVal = Number.parseInt(toNum(min));
     let maxVal = Number.parseInt(toNum(max));
 
-    if(min === priceRange[0]) minVal = 0;
-    if(max === priceRange[priceRange.length-1]) maxVal = Number.MAX_VALUE
+    if (min === priceRange[0]) minVal = 0;
+    if (max === priceRange[priceRange.length - 1]) maxVal = Number.MAX_VALUE;
 
-    setFilteredProduct(products.filter(
-      (prod) =>  
+    setPriceFilteredProduct(
+      products.filter((prod) =>
         Number.parseInt(toNum(prod.price)) > minVal &&
-        Number.parseInt(toNum(prod.price)) <= maxVal ? prod : '' 
-    ))
-
-    //filter on basis of rating
-    
-    // console.log(Number.parseInt(toNum(min)), Number.parseInt(toNum(max)));
-    // console.log(
-    //   typeof Number.parseInt(toNum(min)),
-    //   typeof Number.parseInt(toNum(max))
-    // );
-
+        Number.parseInt(toNum(prod.price)) <= maxVal
+          ? prod
+          : ""
+      )
+    );
   }, [min, max])
+  
+  //filter on basis of rating
+  useEffect(()=>{
+    console.log(rating);
+    setRatingFilteredProduct(
+      products.filter((prod) => (prod.rating >= rating ? prod : ""))
+    );
+  },[rating])
+
+  // Final filtered products
+  useEffect(()=>{
+    setFilteredProduct(
+      priceFilteredProduct.filter((prod) =>
+        ratingFilteredProduct.includes(prod) ? prod : ''
+      )
+    );
+  }, [priceFilteredProduct, ratingFilteredProduct])
 
   return (
     <div className="flex flex-col m-4">
@@ -73,25 +87,84 @@ function ProductPage() {
             <div>
               <input type="range" name="" id="" />
             </div>
-            <div>
+            <div className="flex justify-between">
               <select
-                className="text-sm"
+                className="text-sm border p-1 w-24"
                 value={min}
                 onChange={(e) => setMin(e.target.value)}
               >
-                {priceRange.map((price) => (
-                  <option>{price}</option>
-                ))}
+                {priceRange.map((price) =>
+                  Number.parseInt(toNum(price)) < Number.parseInt(toNum(max)) ||
+                  price === priceRange[0] ? (
+                    <option>{price}</option>
+                  ) : (
+                    ""
+                  )
+                )}
               </select>
               <select
-                className="text-sm"
+                className="text-sm border p-1 w-24"
                 value={max}
                 onChange={(e) => setMax(e.target.value)}
               >
-                {priceRange.map((price) => (
-                  <option>{price}</option>
-                ))}
+                {priceRange.map((price) =>
+                  (Number.parseInt(toNum(price)) >
+                    Number.parseInt(toNum(min)) ||
+                    min === priceRange[0]) &&
+                  price != priceRange[0] ? (
+                    <option>{price}</option>
+                  ) : (
+                    ""
+                  )
+                )}
               </select>
+            </div>
+          </div>
+          <div>
+            <div className="p-3 border-b-2">
+              <h3 className="font-medium text-[0.8rem]  ">CUSTOMER RATINGS</h3>
+              <div>
+                <label htmlFor="4star" className="flex gap-1 items-center">
+                  <input
+                    type="checkbox"
+                    id="4star"
+                    onChange={() => setRating(4)}
+                    checked={rating === 4}
+                  />
+                  4 <img src="./images/star.svg" className="invert " alt="" />&
+                  above
+                </label>
+                <label htmlFor="3star" className="flex gap-1 items-center">
+                  <input
+                    type="checkbox"
+                    id="3star"
+                    onChange={() => setRating(3)}
+                    checked={rating === 3}
+                  />
+                  3 <img src="./images/star.svg" className="invert " alt="" />&
+                  above
+                </label>
+                <label htmlFor="2star" className="flex gap-1 items-center">
+                  <input
+                    type="checkbox"
+                    id="2star"
+                    onChange={() => setRating(2)}
+                    checked={rating === 2}
+                  />
+                  2 <img src="./images/star.svg" className="invert " alt="" />&
+                  above
+                </label>
+                <label htmlFor="1star" className="flex gap-1 items-center">
+                  <input
+                    type="checkbox"
+                    id="1star"
+                    onChange={() => setRating(1)}
+                    checked={rating === 1}
+                  />
+                  1 <img src="./images/star.svg" className="invert " alt="" />&
+                  above
+                </label>
+              </div>
             </div>
           </div>
         </div>
