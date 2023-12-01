@@ -1,7 +1,7 @@
 
 function Footer(){
     return (
-      <footer className="bg-slate-950 w-full text-white text-xs">
+      <footer className="bg-[#212121] w-full text-white text-xs">
         <div className=" flex  justify-between p-4 py-10 list-none ">
           <div className=" w-[calc(60%)] flex flex-wrap justify-around border-e border-slate-600 font-medium">
             <div>
