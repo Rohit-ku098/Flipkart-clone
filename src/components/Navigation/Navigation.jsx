@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import LoginCard from '../LoginCard/LoginCard';
-import Titletext from '../Titletext/Titletext';
 import './Navigation.css'
 import NavDropdown from './NavDropdown';
 
@@ -11,7 +10,7 @@ function Navigation({className}){
 
     return (
       <header>
-        <nav className={`${className} fixed top-0 z-10`}>
+        <nav className={`${className} fixed top-0 z-50`}>
           <div className="right">
             <div className="logo ">
               <img src="images/logo.svg"  alt=""/>
