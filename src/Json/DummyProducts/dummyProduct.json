@@ -4,7 +4,7 @@
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
     "price": 999,
     "images": ["./images/Products/Electronics/monitor.webp"],
-    "rating": "4.4",
+    "rating": 4.4,
     "flipkartAssured": true
   },
   {

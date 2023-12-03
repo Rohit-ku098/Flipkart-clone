@@ -1,8 +1,9 @@
-export default function ({ hovered = true }) {
+export default function ({ hovered = true , className}) {
   return (
     <div className={`${!hovered && "hidden"} z-10`}>
-      <div className=" w-fit bg-white shadow-gray-400 shadow-xl absolute right-16 top-12 rounded-lg  ">
-        
+      <div
+        className={` bg-white shadow-gray-400 shadow-xl absolute right-16 top-12 rounded-lg  ${className}`}
+      >
         <div className="p-3">
           <ul className="">
             <li className="flex py-2 hover:cursor-pointer hover:bg-gray-50">
@@ -44,8 +45,6 @@ export default function ({ hovered = true }) {
               />
               <p>Download App</p>
             </li>
-
-            
           </ul>
         </div>
       </div>
