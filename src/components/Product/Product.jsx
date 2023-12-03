@@ -7,15 +7,13 @@ function Product({product}) {
       <Link to={"productDetails"}>
         <div className="  h-72 w-full flex items-center justify-center">
           <img
-            src={product.img}
+            src={product.images[0]}
             alt=""
             className="border max-h-full minn-w-full"
           />
         </div>
         <div>
-          <div className="group-hover:text-[#2874F0]">
-            {product.name.slice(0, 60)}...
-          </div>
+          <div className="group-hover:text-[#2874F0]">{product.title.slice(0,40)}</div>
           <div>
             <div className=" flex flex-col  gap-2">
               <div className="flex gap-2 ">
@@ -32,7 +30,13 @@ function Product({product}) {
                 <div className="text-sm text-gray-500 font-medium">{`(9,999)`}</div>
               </div>
               <div className="flex items-center gap-2 flex-wrap ">
-                <div className="font-semibold">{product.price}</div>
+                <div className="font-semibold">
+                  {product.price.toLocaleString("en-IN", {
+                    style: "currency",
+                    currency: "INR",
+                     minimumFractionDigits: 0,
+                  })}
+                </div>
                 <div className="line-through text-sm text-gray-500 ">
                   ₹28,000
                 </div>
