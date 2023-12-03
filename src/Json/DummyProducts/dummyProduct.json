@@ -1,65 +1,65 @@
 [
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹999",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price": 999,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "4.4",
     "flipkartAssured": true
   },
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹1,999",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price": 1999,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "4",
     "flipkartAssured": true
   },
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹10,999",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price": 10999,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "3",
     "flipkartAssured": true
   },
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹20,999",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price": 20999,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "2",
     "flipkartAssured": true
   },
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹30,999",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price": 30999,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "1.7",
     "flipkartAssured": true
   },
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹50,000",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price": 50000,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "3.8",
     "flipkartAssured": true
   },
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹60,000",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price":60000,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "4.5",
     "flipkartAssured": true
   },
   {
-    "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
+    "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
     "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price": "₹60,999",
-    "img": ["./images/Products/Electronics/monitor.webp"],
+    "price": 69000,
+    "images": ["./images/Products/Electronics/monitor.webp"],
     "rating": "5",
     "flipkartAssured": true
   }
