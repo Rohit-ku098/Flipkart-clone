@@ -1,10 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { Link, useParams } from 'react-router-dom'
+import { setProduct } from '../../store/product';
+import { useDispatch } from 'react-redux';
 function Product({product}) {
+
+  const dispatch = useDispatch();
+
+  const category = useParams()
   return (
-    <div className="group p-4 bg-white hover:shadow-2xl hover:z-10   ">
-      <Link to={"productDetails"}>
+    <div
+      className="group p-4 bg-white hover:shadow-2xl hover:z-10   "
+      onClick={() => dispatch(setProduct(product))}
+    >
+      <Link to={`${product.id}`}>
         <div className="  h-72 w-full flex items-center justify-center">
           <img
             src={product.images[0]}
@@ -13,7 +21,9 @@ function Product({product}) {
           />
         </div>
         <div>
-          <div className="group-hover:text-[#2874F0]">{product.title.slice(0,40)}</div>
+          <div className="group-hover:text-[#2874F0]">
+            {product.title.slice(0, 40)}
+          </div>
           <div>
             <div className=" flex flex-col  gap-2">
               <div className="flex gap-2 ">
@@ -34,7 +44,7 @@ function Product({product}) {
                   {product.price.toLocaleString("en-IN", {
                     style: "currency",
                     currency: "INR",
-                     minimumFractionDigits: 0,
+                    minimumFractionDigits: 0,
                   })}
                 </div>
                 <div className="line-through text-sm text-gray-500 ">

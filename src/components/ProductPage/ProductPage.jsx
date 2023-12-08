@@ -292,6 +292,7 @@ export const DummyProducts = async ()=>{
   const products = await fetch("https://dummyjson.com/products")
   .then((res) => res.json())
   .then((res)=> res.products)
-  
+  .catch(res => "ERROR: Network error")
+
   return products
 }
