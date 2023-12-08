@@ -22,7 +22,7 @@ function Product({product}) {
         </div>
         <div>
           <div className="group-hover:text-[#2874F0]">
-            {product.title.slice(0, 40)}
+            {product.title.length > 60 ? product.title.slice(0, 60) + '...' : product.title}
           </div>
           <div>
             <div className=" flex flex-col  gap-2">

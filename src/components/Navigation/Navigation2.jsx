@@ -9,7 +9,7 @@ function Navigation2({ className }) {
 
   return (
     <header>
-      <nav className={`${className} fixed top-0 z-50`}>
+      <nav className={`${className} fixed top-0 z-50 shadow-md`}>
         <div className="right">
           <div className="w-20">
             <img src="images/logo-white.png" className="w-full h-full" alt="" />
@@ -22,7 +22,7 @@ function Navigation2({ className }) {
               Plus
             </span>
             <span>
-              <img src="images/plus.png" alt="" width={11} />
+              <img src="/Flipkart-clone/images/plus.png" alt="" width={11} />
             </span>
           </div>
         </div>
@@ -70,7 +70,7 @@ function Navigation2({ className }) {
             }}
           >
             <div className="text-white">More</div>
-            <img src="images/dropdown.svg" alt="" className="group-hover/more:rotate-180 ease-in-out duration-200 invert translate-y-[2px]"/>
+            <img src="/Flipkart-clone/images/dropdown.svg" alt="" className="group-hover/more:rotate-180 ease-in-out duration-200 invert translate-y-[2px]"/>
             <div className="relative">
               <NavDropdown hovered={dropdownHover} className={`w-60 top-10 right-[-6rem]`}/>
             </div>
