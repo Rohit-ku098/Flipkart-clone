@@ -1,65 +1,73 @@
 [
   {
+    "id": 1,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 999,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": 4.4,
     "flipkartAssured": true
   },
   {
+    "id": 2,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 1999,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": "4",
     "flipkartAssured": true
   },
   {
+    "id": 3,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 10999,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": "3",
     "flipkartAssured": true
   },
   {
+    "id": 4,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 20999,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": "2",
     "flipkartAssured": true
   },
   {
+    "id": 5,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 30999,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": "1.7",
     "flipkartAssured": true
   },
   {
+    "id": 6,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 50000,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": "3.8",
     "flipkartAssured": true
   },
   {
+    "id": 7,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
-    "price":60000,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
+    "price": 60000,
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": "4.5",
     "flipkartAssured": true
   },
   {
+    "id": 8,
     "title": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV 2022 Edition with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)",
-    "discription": "This is a dummy product, It is created for illutstration of the actual product",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 69000,
-    "images": ["./images/Products/Electronics/monitor.webp"],
+    "images": ["images/Products/Electronics/monitor.webp"],
     "rating": "5",
     "flipkartAssured": true
   }

@@ -72,7 +72,7 @@ function Navigation2({ className }) {
             <div className="text-white">More</div>
             <img src="images/dropdown.svg" alt="" className="group-hover/more:rotate-180 ease-in-out duration-200 invert translate-y-[2px]"/>
             <div className="relative">
-              <NavDropdown hovered={dropdownHover} className={`w-60 top-10 right-1`}/>
+              <NavDropdown hovered={dropdownHover} className={`w-60 top-10 right-[-6rem]`}/>
             </div>
           </div>
 
