@@ -24,7 +24,7 @@ function ProductDetails() {
         <div>
           <div className="w-[25rem] h-[25rem] border p-3 flex justify-center items-center  bg-white">
             <img
-              src={` ${product.images[imgIndex]}`}
+              src={`${product.images[imgIndex]}`}
               alt=""
               className="max-w-full max-h-full"
             />
