@@ -1,15 +1,29 @@
 import React, { useState } from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { cartProducts } from '../../store/cartProductSlice'
+import { Link } from 'react-router-dom'
 
 function ProductDetails() {
   const [imgIndex, setImgIndex] = useState(0)
   const [isPincodeEntered, setIsPincodeEntered] = useState(false)
+  
   let date = new Date()
   date = new Date(date.setDate(date.getDate() + 3));
   
  
+  const cartDispatch = useDispatch()
+  const product = useSelector( state => state.product.product)
+  const cartProduct = useSelector((state) => state.cartProducts.cartProducts);
+ 
+  const cartProductsId = cartProduct.map((prod) => prod.id)
 
-  const product = useSelector( state => state.product)
+  console.log(cartProduct)
+  const AddToCart = () =>
+  {
+    cartDispatch(cartProducts(product));
+    
+  }
+
   console.log(product)
   return (
     <div className=" mx-20 p-3 flex justify-start relative  gap-3 bg-white">
@@ -33,10 +47,24 @@ function ProductDetails() {
             />
           </div>
           <div className="flex justify-between ">
-            <button className="border w-48 h-14 my-2 font-medium text-white bg-[#FF9F00]">
-              ADD TO CART
-            </button>
-            <button className="border w-48 h-14 my-2 font-medium text-white bg-[#FB641B]">
+            {cartProductsId.includes(product.id) ? (
+              <Link to="/Flipkart-clone/cart">
+                <button className="border w-48 h-14 my-2 font-medium text-white bg-[#FF9F00] flex items-center gap-3 justify-center">
+                  <img src="/Flipkart-clone/images/cart.svg" alt="" />
+                  GO TO CART
+                </button>
+              </Link>
+            ) : (
+              <button
+                className="border w-48 h-14 my-2 font-medium text-white bg-[#FF9F00] flex items-center gap-3 justify-center"
+                onClick={AddToCart}
+              >
+                <img src="/Flipkart-clone/images/cart.svg" alt="" />
+                ADD TO CART
+              </button>
+            )}
+            <button className="border w-48 h-14 my-2 font-medium text-white bg-[#FB641B] flex items-center gap-3 justify-center">
+              <img src="/Flipkart-clone/images/buyNow.svg" alt="" />
               BUY NOW
             </button>
           </div>
@@ -66,7 +94,13 @@ function ProductDetails() {
                 minimumFractionDigits: 0,
               })}
             </div>
-            <div className="line-through  text-gray-500 ">₹28,000</div>
+            <div className="line-through  text-gray-500 ">
+              {product.originalPrice.toLocaleString("en-IN", {
+                style: "currency",
+                currency: "INR",
+                minimumFractionDigits: 0,
+              })}
+            </div>
             <div className=" font-[500]  text-[#388E3C] ">71% Off</div>
           </div>
         </div>
@@ -139,7 +173,11 @@ function ProductDetails() {
                   className="outline-none "
                   placeholder="Enter Delivery Pincode"
                 />
-                <button type="submit" className="text-[#2874F0] cursor-pointer" onClick={()=>setIsPincodeEntered(true)}>
+                <button
+                  type="submit"
+                  className="text-[#2874F0] cursor-pointer"
+                  onClick={() => setIsPincodeEntered(true)}
+                >
                   check
                 </button>
               </div>
