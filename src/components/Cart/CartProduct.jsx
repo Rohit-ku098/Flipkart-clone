@@ -1,6 +1,7 @@
 import React from 'react'
-import { useDispatch } from 'react-redux';
-import { removeProduct } from '../../store/cartProductSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { removeProduct , increaseQuantity, decreaseQuantity} from '../../store/cartProductSlice';
+import { useSearchParams } from 'react-router-dom';
 
 function CartProduct({product}) {
 
@@ -9,12 +10,12 @@ function CartProduct({product}) {
   deliveryDate = new Date(deliveryDate.setDate(deliveryDate.getDate() + 3))
 
   const dispatch = useDispatch();
-
-
+  const productCounter = useSelector(
+    (state) => state.cartProducts.productCounter
+  );
+  console.log(productCounter[product.id]);
   const removeFromCart = () => {
     dispatch(removeProduct(product.id))
-  
-
   }
   return (
     <div className="p-3 w-full  flex flex-col border-b">
@@ -58,19 +59,29 @@ function CartProduct({product}) {
       </div>
       <div className=" mt-4 flex gap-6 ">
         <div className="flex gap-2 font-medium">
-          <button className="border border-gray-400 w-7 h-7 p-1 rounded-full flex items-center justify-center">
+          <button
+            className={`border border-gray-400 w-7 h-7 p-1 rounded-full flex items-center justify-center ${
+              productCounter[product.id] > 1 ? "" : " opacity-50"
+            }`}
+            onClick={() => dispatch(decreaseQuantity(product.id))}
+          >
             -
           </button>
           <div className="border border-gray-400 w-12 h-7 p-1 flex items-center justify-center">
-            1
+            {productCounter[product.id] ? productCounter[product.id] : 1}
           </div>
-          <button className="border border-gray-400 w-7 h-7 p-1 rounded-full flex items-center justify-center">
+          <button
+            className="border border-gray-400 w-7 h-7 p-1 rounded-full flex items-center justify-center"
+            onClick={() => dispatch(increaseQuantity(product.id))}
+          >
             +
           </button>
         </div>
-        <div className='flex gap-3 font-medium '>
-          <span className='cursor-pointer'>SAVE FOR LATER</span>
-          <span className='cursor-pointer' onClick={removeFromCart}>REMOVE</span>
+        <div className="flex gap-3 font-medium ">
+          <span className="cursor-pointer">SAVE FOR LATER</span>
+          <span className="cursor-pointer" onClick={removeFromCart}>
+            REMOVE
+          </span>
         </div>
       </div>
     </div>
