@@ -15,7 +15,7 @@ function Navigation({className}){
         >
           <div className="right">
             <div className="logo ">
-              <img src="images/logo.svg" alt="" />
+              <img src="images/logo.svg" alt=""  className='h-10'/>
             </div>
           </div>
           <div className="search  w-[45vw] py-1.5 px-4 flex items-center rounded-md text-lg bg-[#F0F5FF] ">
@@ -47,7 +47,7 @@ function Navigation({className}){
               <img
                 src="./images/profile.svg"
                 alt=""
-                className=" hover:cursor-pointer group-hover:invert"
+                className="w-6 hover:cursor-pointer group-hover:invert "
               />
               <p className="group-hover:invert group-hover:font-medium">
                 Login
@@ -55,13 +55,13 @@ function Navigation({className}){
               <img
                 src="./images/dropdown.svg"
                 alt=""
-                className="group-hover:invert group-hover:rotate-180 ease-in-out duration-200 translate-y-1 "
+                className="w-3 group-hover:invert group-hover:rotate-180 ease-in-out duration-200 translate-y-1 "
               />
             </div>
 
             <NavLink to={"/Flipkart-clone/cart"}>
               <div className="cart hover:cursor-pointer flex items-center">
-                <img src="./images/header_cart.svg" alt="" />
+                <img src="./images/header_cart.svg" alt="" className='w-6'/>
                 <p>Cart</p>
               </div>
             </NavLink>
@@ -70,8 +70,9 @@ function Navigation({className}){
               <img
                 src="./images/Store.svg"
                 alt="store"
-                width="24px"
-                height={"24px"}
+                // width="24px"
+                // height={"24px"}
+                className='w-6'
               />
               <p>Become a Seller</p>
             </div>
@@ -85,7 +86,7 @@ function Navigation({className}){
                 setDropdownhover(false);
               }}
             >
-              <img src="./images/3dot.svg" alt="" />
+              <img src="./images/3dot.svg" alt=""  className='w-5'/>
               <div>
                 <NavDropdown hovered={dropdownHover} />
               </div>

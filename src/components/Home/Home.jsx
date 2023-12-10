@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './Home.css'
 import Navigation from '../Navigation/Navigation'
 import NavigationProductSection from '../NavigationProduct/NavigationProductSection'
 import Slider from '../Slider/Slider'
