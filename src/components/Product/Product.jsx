@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { setProduct } from '../../store/product';
+import { setProduct } from '../../store/productSlice';
 import { useDispatch } from 'react-redux';
 function Product({product}) {
 
@@ -22,7 +22,9 @@ function Product({product}) {
         </div>
         <div>
           <div className="group-hover:text-[#2874F0]">
-            {product.title.length > 60 ? product.title.slice(0, 60) + '...' : product.title}
+            {product.title.length > 60
+              ? product.title.slice(0, 60) + "..."
+              : product.title}
           </div>
           <div>
             <div className=" flex flex-col  gap-2">
@@ -48,7 +50,11 @@ function Product({product}) {
                   })}
                 </div>
                 <div className="line-through text-sm text-gray-500 ">
-                  ₹28,000
+                  {product.originalPrice.toLocaleString("en-IN", {
+                    style: "currency",
+                    currency: "INR",
+                    minimumFractionDigits: 0,
+                  })}
                 </div>
                 <div className="text-xs font-[500]  text-[#388E3C] ">
                   71% Off

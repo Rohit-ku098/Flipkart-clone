@@ -1,7 +1,8 @@
 import { useState } from "react";
 import LoginCard from "../LoginCard/LoginCard";
-import "./Navigation.css";
 import NavDropdown from "./NavDropdown";
+import { NavLink } from "react-router-dom";
+import Cart from "../Cart/Cart";
 
 function Navigation2({ className }) {
   const [hovered, setHovered] = useState(false);
@@ -9,11 +10,19 @@ function Navigation2({ className }) {
 
   return (
     <header>
-      <nav className={`${className} fixed top-0 z-50 shadow-md`}>
+      <nav
+        className={`${className} w-full h-16  items-center fixed top-0 z-50 shadow-md bg-[#2874F0] flex justify-center gap-4 `}
+      >
         <div className="right">
-          <div className="w-20">
-            <img src="images/logo-white.png" className="w-full h-full" alt="" />
-          </div>
+          <NavLink to={"/Flipkart-clone/"}>
+            <div className="w-20">
+              <img
+                src="/Flipkart-clone/images/logo-white.png"
+                className="w-full h-full"
+                alt=""
+              />
+            </div>
+          </NavLink>
           <div className="flex items-center">
             <span className="text-white font-medium font-Roboto text-xs italic">
               Explore
@@ -26,10 +35,10 @@ function Navigation2({ className }) {
             </span>
           </div>
         </div>
-        <div className="w-1/3 search rounded-none flex justify-between">
+        <div className=" search w-[45vw] py-1.5 px-4  rounded-none flex items-center justify-between text-lg bg-[#F0F5FF] shadow-md ">
           <input
             type="text"
-            className=""
+            className="w-[90%] ms-1 bg-[#F0F5FF] placeholder:text-[#717478] outline-none"
             placeholder="Search Products, Brands and More"
           />
           <i
@@ -38,7 +47,7 @@ function Navigation2({ className }) {
           ></i>
         </div>
 
-        <div className="left flex items-center justify-between">
+        <div className="left flex gap-8 items-center justify-between ">
           <div
             className="login group bg-white px-5 py-1 flex items-center "
             onMouseOver={() => {
@@ -61,7 +70,7 @@ function Navigation2({ className }) {
           </div>
 
           <div
-            className="3dot  py-4 hover:cursor-pointer group/more "
+            className="3dot  py-4 hover:cursor-pointer group/more flex"
             onMouseOver={() => {
               setDropdownhover(true);
             }}
@@ -70,16 +79,29 @@ function Navigation2({ className }) {
             }}
           >
             <div className="text-white">More</div>
-            <img src="/Flipkart-clone/images/dropdown.svg" alt="" className="group-hover/more:rotate-180 ease-in-out duration-200 invert translate-y-[2px]"/>
+            <img
+              src="/Flipkart-clone/images/dropdown.svg"
+              alt=""
+              className="group-hover/more:rotate-180 ease-in-out duration-200 invert translate-y-[2px]"
+            />
             <div className="relative">
-              <NavDropdown hovered={dropdownHover} className={`w-60 top-10 right-[-6rem]`}/>
+              <NavDropdown
+                hovered={dropdownHover}
+                className={`w-60 top-10 right-[-6rem]`}
+              />
             </div>
           </div>
 
-          <div className="cart hover:cursor-pointer flex items-center invert font-medium ">
-            <img src="./images/header_cart.svg" className="" alt="" />
-            <p>Cart</p>
-          </div>
+          <NavLink to={"/Flipkart-clone/cart"}>
+            <div className="cart hover:cursor-pointer flex gap-2 items-center text-white font-medium ">
+              <img
+                src="/Flipkart-clone/images/cart.svg"
+                className=""
+                alt=""
+              />
+              <p>Cart</p>
+            </div>
+          </NavLink>
         </div>
       </nav>
     </header>

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import LoginCard from '../LoginCard/LoginCard';
-import './Navigation.css'
+// import './Navigation.css'
 import NavDropdown from './NavDropdown';
-
+import { NavLink } from 'react-router-dom';
 function Navigation({className}){
 
    const [hovered, setHovered] = useState(false)
@@ -10,24 +10,29 @@ function Navigation({className}){
 
     return (
       <header>
-        <nav className={`${className} fixed top-0 z-50`}>
+        <nav
+          className={`${className} w-full h-16 flex justify-around items-center fixed top-0 z-50 bg-white `}
+        >
           <div className="right">
             <div className="logo ">
-              <img src="images/logo.svg"  alt=""/>
+              <img src="images/logo.svg" alt="" />
             </div>
           </div>
-          <div className="search ">
-            <i className="fa fa-search text-xl " aria-hidden="true"></i>
+          <div className="search  w-[45vw] py-1.5 px-4 flex items-center rounded-md text-lg bg-[#F0F5FF] ">
+            <i
+              className="fa fa-search text-xl text-[#717478] "
+              aria-hidden="true"
+            ></i>
             <input
               type="text"
-              className=""
+              className="w-[90%] ms-3 bg-[#F0F5FF] outline-none placeholder:text-[#717478]"
               placeholder="Search Products, Brands and More"
             />
           </div>
 
-          <div className="left">
+          <div className="left w-1/3 flex items-center justify-around ">
             <div
-              className="login group hover:bg-blue-700 px-1 py-2 rounded flex items-center "
+              className="login group hover:bg-blue-700 px-1 py-2 rounded flex items-center gap-1"
               onMouseOver={() => {
                 setHovered(true);
               }}
@@ -50,14 +55,16 @@ function Navigation({className}){
               <img
                 src="./images/dropdown.svg"
                 alt=""
-                className="group-hover:invert group-hover:rotate-180 ease-in-out duration-200 "
+                className="group-hover:invert group-hover:rotate-180 ease-in-out duration-200 translate-y-1 "
               />
             </div>
 
-            <div className="cart hover:cursor-pointer flex items-center">
-              <img src="./images/header_cart.svg" alt="" />
-              <p>Cart</p>
-            </div>
+            <NavLink to={"/Flipkart-clone/cart"}>
+              <div className="cart hover:cursor-pointer flex items-center">
+                <img src="./images/header_cart.svg" alt="" />
+                <p>Cart</p>
+              </div>
+            </NavLink>
 
             <div className="seller w-44 hover:cursor-pointer flex items-center">
               <img

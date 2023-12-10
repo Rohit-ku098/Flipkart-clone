@@ -8,7 +8,7 @@ import Navigation2 from './components/Navigation/Navigation2';
 function Layout() {
   return (
     <div>
-      <Navigation2 className={"bg-[#2874F0] flex justify-center gap-4 "} />
+      <Navigation2 className={""} />
       <NavigationProductSection/>
       <Outlet />
       <Footer />

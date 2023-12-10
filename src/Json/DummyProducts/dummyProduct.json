@@ -4,6 +4,7 @@
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 999,
+    "originalPrice": 2000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
       "/Flipkart-clone/images/DummyProduct/2.webp",
@@ -21,6 +22,7 @@
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 1999,
+    "originalPrice": 3000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
       "/Flipkart-clone/images/DummyProduct/2.webp",
@@ -38,6 +40,7 @@
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 10999,
+    "originalPrice": 20000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
       "/Flipkart-clone/images/DummyProduct/2.webp",
@@ -55,6 +58,7 @@
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 20999,
+    "originalPrice": 30000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
       "/Flipkart-clone/images/DummyProduct/2.webp",
@@ -72,6 +76,7 @@
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 30999,
+    "originalPrice": 50000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
       "/Flipkart-clone/images/DummyProduct/2.webp",
@@ -89,6 +94,7 @@
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 50000,
+    "originalPrice": 55000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
       "/Flipkart-clone/images/DummyProduct/2.webp",
@@ -106,6 +112,7 @@
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
     "price": 60000,
+    "originalPrice": 70000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
       "/Flipkart-clone/images/DummyProduct/2.webp",
@@ -122,6 +129,7 @@
     "id": 8,
     "title": "OnePlus Nord CE 2 Lite 5G (Blue Tide, 128 GB)  (6 GB RAM)",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam at, corrupti ipsa laudantium magni necessitatibus et rem quo incidunt odit totam. Nulla tenetur praesentium sed sit ullam aliquam labore. Aut, rem magnam culpa eum a asperiores perspiciatis nobis earum vero quam omnis, iusto consequuntur vel deserunt ea sint laborum saepe.",
+    "originalPrice":80000,
     "price": 69000,
     "images": [
       "/Flipkart-clone/images/DummyProduct/1.webp",
