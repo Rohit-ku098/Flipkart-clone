@@ -31,7 +31,7 @@ function Navigation2({ className }) {
               Plus
             </span>
             <span>
-              <img src="/Flipkart-clone/images/plus.png" alt="" width={11} />
+              <img src="/Flipkart-clone/images/plus.png" alt="" className="w-4" />
             </span>
           </div>
         </div>
@@ -82,7 +82,7 @@ function Navigation2({ className }) {
             <img
               src="/Flipkart-clone/images/dropdown.svg"
               alt=""
-              className="group-hover/more:rotate-180 ease-in-out duration-200 invert translate-y-[2px]"
+              className="w-4 group-hover/more:rotate-180 ease-in-out duration-200 invert translate-y-0.5"
             />
             <div className="relative">
               <NavDropdown
@@ -93,7 +93,7 @@ function Navigation2({ className }) {
           </div>
 
           <NavLink to={"/Flipkart-clone/cart"}>
-            <div className="cart hover:cursor-pointer flex gap-2 items-center text-white font-medium ">
+            <div className="cart w-4 hover:cursor-pointer flex gap-2 items-center text-white font-medium ">
               <img
                 src="/Flipkart-clone/images/cart.svg"
                 className=""

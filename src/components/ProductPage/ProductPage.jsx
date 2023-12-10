@@ -219,7 +219,7 @@ function ProductPage() {
                     onChange={() => setRating(4)}
                     checked={rating === 4}
                   />
-                  4 <img src="./images/star.svg" className="invert " alt="" />&
+                  4 <img src="./images/star.svg" className="w-4 invert " alt="" />&
                   above
                 </label>
                 <label htmlFor="3star" className="flex gap-1 items-center">
@@ -229,7 +229,7 @@ function ProductPage() {
                     onChange={() => setRating(3)}
                     checked={rating === 3}
                   />
-                  3 <img src="./images/star.svg" className="invert " alt="" />&
+                  3 <img src="./images/star.svg" className="w-4 invert " alt="" />&
                   above
                 </label>
                 <label htmlFor="2star" className="flex gap-1 items-center">
@@ -239,7 +239,7 @@ function ProductPage() {
                     onChange={() => setRating(2)}
                     checked={rating === 2}
                   />
-                  2 <img src="./images/star.svg" className="invert " alt="" />&
+                  2 <img src="./images/star.svg" className="w-4 invert " alt="" />&
                   above
                 </label>
                 <label htmlFor="1star" className="flex gap-1 items-center">
@@ -248,8 +248,9 @@ function ProductPage() {
                     id="1star"
                     onChange={() => setRating(1)}
                     checked={rating === 1}
+                    className=''
                   />
-                  1 <img src="./images/star.svg" className="invert " alt="" />&
+                  1 <img src="./images/star.svg" className="w-4 invert " alt="" />&
                   above
                 </label>
               </div>

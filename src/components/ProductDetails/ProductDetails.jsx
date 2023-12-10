@@ -50,7 +50,7 @@ function ProductDetails() {
             {cartProductsId.includes(product.id) ? (
               <Link to="/Flipkart-clone/cart">
                 <button className="border w-48 h-14 my-2 font-medium text-white bg-[#FF9F00] flex items-center gap-3 justify-center">
-                  <img src="/Flipkart-clone/images/cart.svg" alt="" />
+                  <img src="/Flipkart-clone/images/cart.svg" alt="" className='w-4'/>
                   GO TO CART
                 </button>
               </Link>
@@ -59,12 +59,12 @@ function ProductDetails() {
                 className="border w-48 h-14 my-2 font-medium text-white bg-[#FF9F00] flex items-center gap-3 justify-center"
                 onClick={AddToCart}
               >
-                <img src="/Flipkart-clone/images/cart.svg" alt="" />
+                <img src="/Flipkart-clone/images/cart.svg" alt="" className='w-4'/>
                 ADD TO CART
               </button>
             )}
             <button className="border w-48 h-14 my-2 font-medium text-white bg-[#FB641B] flex items-center gap-3 justify-center">
-              <img src="/Flipkart-clone/images/buyNow.svg" alt="" />
+              <img src="/Flipkart-clone/images/buyNow.svg" alt="" className='w-4'/>
               BUY NOW
             </button>
           </div>
@@ -76,7 +76,7 @@ function ProductDetails() {
           <div className=" my-2 flex gap-2 ">
             <div className="bg-[#388E3C] rounded-md p-[3px] font-[600] text-xs text-white flex items-center gap-1">
               <span className="">{product.rating}</span>
-              <span className="">
+              <span className="w-3.5">
                 <img
                   src="/Flipkart-clone/images/star.svg"
                   alt=""

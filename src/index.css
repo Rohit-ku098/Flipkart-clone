@@ -11,7 +11,7 @@
 }
 :root{
     background-color: #F1F3F6;
-    
+    font-size: 1.1vw;
 }
 :root::-webkit-scrollbar{
     display: none;

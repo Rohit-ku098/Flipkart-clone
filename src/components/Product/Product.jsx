@@ -31,7 +31,7 @@ function Product({product}) {
               <div className="flex gap-2 ">
                 <div className="bg-[#388E3C] rounded-md p-[3px] font-[600] text-xs text-white flex items-center gap-1">
                   <span className="">{product.rating}</span>
-                  <span className="">
+                  <span className="w-3.5">
                     <img
                       src="images/star.svg"
                       alt=""
