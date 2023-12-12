@@ -30,7 +30,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="cart" element={<Cart/>}/>
       <Route path={`/Flipkart-clone/:category`} element={<Layout />}>
-        <Route path={``}  loader={DummyProducts} element={<ProductPage />} />
+        <Route path={``}   element={<ProductPage />} />
         <Route path={`:id`} element={<ProductDetails />} />
       </Route>
     </Route>
